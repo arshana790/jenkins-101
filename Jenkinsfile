@@ -39,6 +39,7 @@
 // }
 
 //===================================================================
+//*******Getting docker file from repository
 
 // pipeline {
 //     agent { dockerfile true }
@@ -53,6 +54,7 @@
 // }
 
 // ===========================================
+//*******Getting docker file from external(Dockerhub ?)
 
 pipeline {
     agent { docker { image 'node:18.16.0-alpine' } }
